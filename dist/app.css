@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrap {
+  width: 1400px;
+  margin: auto;
+}
+
+.content {
+  background-color: #d1340d;
+  height: 400px;
+  color: #f2d3cb;
+}
+
+.content p {
+  font-size: 26px;
+}
+
+.info {
+  background-color: #f2d3cb;
+  height: 200px;
+  color: #d1340d;
+}
+
+.info p {
+  font-size: 20px;
+}
+

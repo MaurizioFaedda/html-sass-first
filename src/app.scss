@@ -1,0 +1,43 @@
+// primary style
+$primary_color: #d1340d;
+$primary_heigth: 400px;
+$p-primary_size: 26px;
+
+// secondary style
+$secondary_color: #f2d3cb;
+$secondary_heigth: 200px;
+$p-secondary_size: 20px;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrap{
+    width: 1400px;
+    margin: auto;
+}
+
+
+.content{
+    background-color: $primary_color;
+    height: $primary_heigth;
+    color: $secondary_color;
+}
+
+.content p{
+    font-size: $p-primary_size;
+}
+
+.info{
+    background-color: $secondary_color;
+    height: $secondary_heigth;
+    color: $primary_color;
+}
+
+.info p{
+    font-size: $p-secondary_size;
+}
